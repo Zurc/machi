@@ -1,0 +1,340 @@
+/*
+********************
+* General  Styling
+********************
+*/
+
+html, body {
+	height: 100%;
+}
+
+.page-wrap {
+  min-height: 100%;
+  /* equal to footer height */
+  margin-bottom: -1em; 
+}
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+.page-wrap:after {
+  /* .push must be the same height as footer */
+  height: 1em; 
+}
+
+body {
+	font-family: 'Caudex', serif;
+	background: #978777;
+}
+
+h1, h2, h3, h4 {
+	font-family: 'Comfortaa', cursive;
+}
+
+/*.no-wrap {
+	white-space: nowrap;
+}*/
+
+.slim, h4, h2 {
+	font-weight: 200;
+}
+
+
+.bmargin {
+	margin: 80px 0;
+}
+
+.nmargin {
+	margin: 40px 0;
+}
+
+.smargin {
+	margin: 23px 0;
+}
+
+.trpt {
+	opacity: 0.7;
+}
+
+.trpt2 {
+	opacity: 0.3;
+}
+.pos-rel {
+	position: relative;
+}
+
+.arrow-down {
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 30px 35px 0 35px;
+	border-color: #ffffff transparent transparent transparent;
+	position: absolute;
+	bottom: -20px;
+	left: 45%;
+	margin: 0 auto;
+}
+
+.circle {
+	border-radius: 50%;
+	border: 12px solid #1485ab;
+}
+
+.team-photo {
+	max-height: 300px;
+}
+
+.inline {
+	display: inline-block;
+}
+
+.team p {
+	font-size: 90%;
+	line-height: 1.8em;
+}
+
+.hoverup {
+	opacity: 0.9;
+	position: relative;
+}
+ 
+.hoverup:hover {
+	top: -10px;
+	opacity: 1;
+}
+
+.trans {
+	-webkit-transition: all 0.5s cubic-bezier(0,.57,.57,.99);
+	-moz-transition: all 0.5s cubic-bezier(0,.57,.57,.99);
+	-ms-transition: all 0.5s cubic-bezier(0,.57,.57,.99);
+	-o-transition: all 0.5s cubic-bezier(0,.57,.57,.99);
+	transition: all 0.5s cubic-bezier(0,.57,.57,.99);	
+}
+
+.trans1 {
+	-webkit-transition: all 0.4s linear;
+    -moz-transition: all 0.4s linear;
+    -o-transition: all 0.4s linear;
+    -ms-transition: all 0.4s linear;
+    transition: all 0.4s linear;
+}
+
+/*input, textarea {
+	line-height: 50px;
+	min-height: 50px !important;
+	border-radius: 5px !important;
+	padding: 15px !important;
+	background-color: #131313 !important;
+	color: #fff !important;
+	border: none !important;
+	outline: none !important;
+	box-shadow: none !important;
+}
+
+input:focus, textarea:focus {
+	background-color: #0f0f0f !important;
+}
+
+textarea {
+	height: 200px;
+
+}*/
+
+/*
+********************
+* Sections
+********************
+*/
+
+header {
+	background: #978777;
+}
+
+.inline-list {
+	float: right;
+}
+
+nav * {
+	line-height: 52px;
+	margin-right: 20px;
+}
+
+nav a {
+	color: #fffed4;
+}
+
+.name {
+	margin-top: 40px;
+	font-weight: lighter;
+	color: #fffed4;
+	margin-bottom: 0;
+	letter-spacing: 0.2em;
+}
+
+.name span {
+	font-weight: bold;
+}
+
+.welcome {
+	padding: 15em 2.5em 15em 0;
+	background: url(../img/water.jpg) no-repeat center center; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.welcome img {
+	opacity: 0.8;
+}
+
+.welcome h2 {
+		color: #fff;
+		text-shadow: 2px 2px 3px rgba(150, 150, 150, 1);
+}
+
+.about {
+	padding-top: 5em;
+	background: url(../img/bg.png);
+}
+
+
+.ico {
+	max-height: 80px;
+}
+
+#world {
+	max-height: 400px;
+}
+
+footer {
+	background: #978777;
+}
+
+/*division entre foto y textura*/
+.contact {
+	color: #fff;
+	padding: 2em 0;
+}
+
+
+
+/*
+********************
+* About
+********************
+*/
+
+.about-me {
+	background: #c3c3c3;
+	padding: 20px;
+	width: 100%;
+}
+
+.quote {
+	margin-top: 8em;
+}
+.contact-me {
+	background: url(../img/bg.png);
+	padding: 20px;
+	width: 100%;
+}
+
+.contact-me h1, .contact-me p, label {
+	color: #c3c3c3;
+}
+
+.map img {
+	position: relative;
+}
+.map div {
+	color: red;
+	border-radius: 100%;
+	border: 5px solid red;
+	background: red;
+	width: 1px;
+	height: 1px;
+}
+
+.a {
+	position: absolute;
+	top: 74%;
+	left: 31%;
+}
+
+.a:hover {
+	position: absolute;
+	top: 53%;
+	left: 14%;
+	width: 200px;
+	height: 200px;
+	background: url(../img/rainbow.png) no-repeat center center;
+}
+
+.b {
+	position: absolute;
+	top: 46%;
+	left: 48%;
+}
+
+.b:hover {
+	position: absolute;
+	top: 28%;
+	left: 30%;
+	width: 200px;
+	height: 200px;
+	background: url(../img/rainbow.png) no-repeat center center;
+}
+.g {
+	position: absolute;
+	top: 45%;
+	left: 46%;
+}
+
+.g:hover {
+	position: absolute;
+	top: 26%;
+	left: 28%;
+	width: 200px;
+	height: 200px;
+	background: url(../img/rainbow.png) no-repeat center center;
+}
+
+
+@media only screen and (max-width: 768px) {
+
+	#name {
+		text-align: center;
+		border-bottom: 3px solid #e0e0e0;
+		padding-bottom: 20px;
+	}
+	.inline-list {
+		margin: 0;
+	}
+	nav {
+		float: left !important;
+		width: 100%;
+		margin: 20px 0;
+	}
+	nav li {
+		float: none;
+		clear: both;
+		margin-left: 0 !important;
+		width: 100%;
+		text-align: center;
+	}
+	nav li:hover {
+		background-color: #e0e0e0;
+	}
+	
+	.about {
+		margin-top: 0;
+	}
+
+}
+
+
+
+
+
+
