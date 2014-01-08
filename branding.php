@@ -20,7 +20,7 @@ include ('header.php');
 		
 	</article>
 	</div>
-	<article class="contact-me">
+	<article class="portfolio">
 		<div class="row">
 			<div class="large-6 columns bmargin-top right">
 			</div>
