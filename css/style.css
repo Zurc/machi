@@ -179,7 +179,7 @@ nav a {
 }
 
 .welcome {
-	padding: 15em 2.5em 15em 0;
+	padding: 7em 2.5em 23em 0;
 	background: url(../img/sand_feet.jpg) no-repeat center center; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -196,7 +196,7 @@ nav a {
 		text-shadow: 2px 2px 3px rgba(150, 150, 150, 1);
 }
 
-.about {
+.portfolio {
 	padding-top: 5em;
 	background: url(../img/bg.png);
 }
@@ -303,6 +303,33 @@ footer {
 	background: url(../img/rainbow.png) no-repeat center center;
 }
 
+/*
+********************
+* Branding
+********************
+*/
+
+.branding {
+	padding: 7em 2.5em 23em 0;
+	background: url(../img/sand_feet.jpg) no-repeat center center; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.branding img {
+	opacity: 0.8;
+}
+
+.branding h2 {
+		color: #e22728;
+		text-shadow: 2px 2px 3px rgba(150, 150, 150, 1);
+}
+
+.branding p {
+		color: #e22728;
+}
 
 @media only screen and (max-width: 768px) {
 

@@ -1,27 +1,50 @@
+
+
 <?php 
+
 include ('header.php');
+
  ?>
 
 <section>
-	<div class="about-me">
+	<div class="branding">
 	<article class="row">
-		
-		<div class="large-6 right columns bmargin-top">
-			<h1>I'm María</h1>
-			<p>I have a very atypical path both personally and professionally. I was born in Cameroun and raised in 6 different countries and 3 continents. I speak English, French and Spanish fluently.
-			<br>I have been good at math and science since my childhood, studying and obtaining a diploma in Electronics Engineering. After working in that field for a couple of years, I decided to learn design on my own and have been working as a designer and developer since July 2007.</p>
+		<div class="large-6 columns">
+			<img src="img/maria.png" alt="imagen">
 		</div>
-	
+		<div class="small-12 large-6 columns bmargin-top">
+			<h2>Branding</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, at, harum, nulla ut iste repellendus praesentium distinctio similique nobis sapiente soluta quis nihil assumenda corporis omnis voluptatum asperiores neque minima.
+			<br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id, sequi, molestias, autem, quisquam repellendus quam unde qui nihil nobis esse nesciunt aspernatur sit reiciendis exercitationem.</p>
+		</div>
+		
 	</article>
 	</div>
 	<article class="contact-me">
 		<div class="row">
-			
-			
+			<div class="large-6 columns bmargin-top right">
+			</div>
+		</div>
+		<div class="row">
+			<div class="large-6 columns bmargin-top right">
+				<div class="row">
+					<div class="large-4 columns nmargin text-center hoverup trans">
+						<img src="img/merge.png" alt="join" class="smargin ico">
+						<h3 class="slim">Publishing</h3>
+					</div>
+					<div class="large-4 columns nmargin text-center hoverup trans">
+						<img src="img/rocket.png" alt="dream" class="smargin ico">
+						<h3 class="slim">Brand Identity</h3>
+					</div>
+					<div class="large-4 columns nmargin text-center hoverup trans">
+						<img src="img/heart.png" alt="love" class="smargin ico">
+						<h3 class="slim">Packaging</h3>
+					</div>
+				</div>
+			</div>
 		</div>
 	</article>
 </section>
-
 
 <?php 
 include ("footer.php");
