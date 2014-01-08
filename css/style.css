@@ -237,6 +237,10 @@ footer {
 	width: 100%;
 }
 
+.about-me h2, p {
+	color: #e22728;
+}
+
 .quote {
 	margin-top: 8em;
 }
@@ -246,8 +250,8 @@ footer {
 	width: 100%;
 }
 
-.contact-me h1, .contact-me p, label {
-	color: #c3c3c3;
+.contact-me h2, .contact-me p, label {
+	color: #fffed4;
 }
 
 .map img {
