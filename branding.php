@@ -7,7 +7,7 @@ include ('header.php');
  ?>
 
 <section>
-	<div class="portfolio_top">
+	<div class="portfolio_top branding_top">
 	<article class="row">
 		<div class="small-12 large-6 columns right bmargin-top">
 			<h2>Branding</h2>
