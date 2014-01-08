@@ -6,7 +6,7 @@ include('header.php');
  
 	<section class="welcome">
 		<div class="row">
-			<div class="large-12 text-right columns">
+			<div class="large-6 right columns">
 				<h2>Design to fit every need</h2>
 			</div>
 		</div>
