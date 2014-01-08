@@ -39,17 +39,20 @@ h1, h2, h3, h4 {
 	font-weight: 200;
 }
 
+.bpadding-right {
+	padding-right: 6em;
+}
 
 .bmargin {
-	margin: 80px 0;
+	margin: 5em 0;
 }
 
 .nmargin {
-	margin: 40px 0;
+	margin: 2.5em 0;
 }
 
 .smargin {
-	margin: 23px 0;
+	margin: 1.1em 0;
 }
 
 .trpt {
@@ -330,6 +333,10 @@ footer {
 	.about {
 		margin-top: 0;
 	}
+
+	.bpadding-right {
+	padding-right: 0;
+}
 
 }
 
