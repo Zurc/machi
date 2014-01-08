@@ -12,20 +12,28 @@ include('header.php');
 		</div>
 	</section>
 
-	<section class="about">
+	<section class="portfolio">
 		<div class="row">
-			<div class="large-4 columns nmargin text-center hoverup trans">
-				<img src="img/bird.png" alt="join" class="smargin ico">
-				<h3 class="slim">Publishing</h3>
+			<div class="large-6 columns bmargin-top right">
 			</div>
-			<div class="large-4 columns nmargin text-center hoverup trans">
-				<img src="img/star.png" alt="dream" class="smargin ico">
-				<h3 class="slim">Brand Identity</h3>
+		</div>
+		<div class="row">
+			<div class="large-6 columns bmargin-top right">
+				<div class="row">
+					<div class="large-4 columns nmargin text-center hoverup trans">
+						<img src="img/bird.png" alt="join" class="smargin ico">
+						<h3 class="slim">Publishing</h3>
+					</div>
+					<div class="large-4 columns nmargin text-center hoverup trans">
+						<img src="img/star.png" alt="dream" class="smargin ico">
+						<h3 class="slim">Brand Identity</h3>
+					</div>
+					<div class="large-4 columns nmargin text-center hoverup trans">
+						<img src="img/fish.png" alt="love" class="smargin ico">
+						<h3 class="slim">Packaging</h3>
+					</div>
+				</div>
 			</div>
-			<div class="large-4 columns nmargin text-center hoverup trans">
-				<img src="img/fish.png" alt="love" class="smargin ico">
-				<h3 class="slim">Packaging</h3>
-			</div>?>
 		</div>
 	</section>
 

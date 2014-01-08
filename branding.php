@@ -29,15 +29,15 @@ include ('header.php');
 			<div class="large-6 columns bmargin-top right">
 				<div class="row">
 					<div class="large-4 columns nmargin text-center hoverup trans">
-						<img src="img/merge.png" alt="join" class="smargin ico">
+						<img src="img/bird.png" alt="join" class="smargin ico">
 						<h3 class="slim">Publishing</h3>
 					</div>
 					<div class="large-4 columns nmargin text-center hoverup trans">
-						<img src="img/rocket.png" alt="dream" class="smargin ico">
+						<img src="img/star.png" alt="dream" class="smargin ico">
 						<h3 class="slim">Brand Identity</h3>
 					</div>
 					<div class="large-4 columns nmargin text-center hoverup trans">
-						<img src="img/heart.png" alt="love" class="smargin ico">
+						<img src="img/fish.png" alt="love" class="smargin ico">
 						<h3 class="slim">Packaging</h3>
 					</div>
 				</div>
