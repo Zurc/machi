@@ -12,7 +12,7 @@ include('header.php');
 		</div>
 	</section>
 
-	<section class="portfolio">
+	<section class="portfolio_bottom">
 		<div class="row">
 			<div class="large-8 columns bmargin-top right">
 				<div class="row">
