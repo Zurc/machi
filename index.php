@@ -14,11 +14,7 @@ include('header.php');
 
 	<section class="portfolio">
 		<div class="row">
-			<div class="large-6 columns bmargin-top right">
-			</div>
-		</div>
-		<div class="row">
-			<div class="large-6 columns bmargin-top right">
+			<div class="large-8 columns bmargin-top right">
 				<div class="row">
 					<div class="large-4 columns nmargin text-center hoverup trans">
 						<img src="img/bird.png" alt="join" class="smargin ico">

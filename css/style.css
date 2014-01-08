@@ -97,7 +97,7 @@ h1, h2, h3, h4 {
 }
 
 .hoverup {
-	opacity: 0.9;
+	opacity: 0.5;
 	position: relative;
 }
  
@@ -197,8 +197,11 @@ nav a {
 }
 
 .portfolio {
-	padding-top: 5em;
 	background: url(../img/bg.png);
+}
+
+.portfolio h3 {
+	color: #e22728;
 }
 
 
