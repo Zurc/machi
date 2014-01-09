@@ -12,7 +12,11 @@ include('header.php');
 		</div>
 	</section>
 
-	<section class="portfolio_bottom">
+<?php
+include('port_icons.php');
+?>
+
+	<!-- <section class="portfolio_bottom">
 		<div class="row">
 			<div class="large-8 columns bmargin-top right">
 				<div class="row">
@@ -31,9 +35,9 @@ include('header.php');
 				</div>
 			</div>
 		</div>
-	</section>
+	</section> -->
 
 
  <?php 
 include ("footer.php");
- 
+?>
