@@ -11,6 +11,7 @@
   <link href='http://fonts.googleapis.com/css?family=Caudex:400,700|Comfortaa:400,700,300' rel='stylesheet' type='text/css'>
   
   <link rel="stylesheet" href="css/foundation.css">
+  <link rel="stylesheet" href="css/general_foundicons.css">
   <link rel="stylesheet" href="css/style.css">  
 
   <script src="js/vendor/custom.modernizr.js"></script>
