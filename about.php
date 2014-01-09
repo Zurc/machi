@@ -8,21 +8,16 @@ include ('header.php');
 
 <section>
 	<div class="about-me">
-	<article class="row">
-		<div class="large-8 columns right bmargin-top">
-			<h2>I'm María</h2>
-			<p>I have a very atypical path both personally and professionally. I was born in Cameroun and raised in 6 different countries and 3 continents. I speak English, French and Spanish fluently.
-			<br>I have been good at math and science since my childhood, studying and obtaining a diploma in Electronics Engineering. After working in that field for a couple of years, I decided to learn design on my own and have been working as a designer and developer since July 2007.</p>
-		</div>
-		<div class="large-8 columns right smargin">
-				<a href="#" target="_blank" class="resume">get my resume</a>
-		</div>
-		<!-- <div class="large-4 columns right">
-			<p class="quote">One of the greatest things about being a designer with an engineer background is that not only can I take care of the graphical aspects of a project, but can also fully understand, participate and even take care of the highly technical aspects of those projects.</p>
-			
-		</div> -->
-	</article>
+		<article class="row">
+			<div class="large-8 columns right transparent_box bmargin-top">
+				<h2>I'm María</h2>
+				<p>I have a very atypical path both personally and professionally. I was born in Cameroun and raised in 6 different countries and 3 continents. I speak English, French and Spanish fluently.
+				<br>I have been good at math and science since my childhood, studying and obtaining a diploma in Electronics Engineering. After working in that field for a couple of years, I decided to learn design on my own and have been working as a designer and developer since July 2007.</p>
+				<br><a href="#" target="_blank" class="resume">get my resume</a>
+			</div>
+		</article>
 	</div>
+	
 	<article class="contact-me">
 		<div class="row">
 			<div class="large-6 columns bmargin-top bpadding-right">

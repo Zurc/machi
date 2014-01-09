@@ -238,7 +238,7 @@ footer {
 }*/
 
 .about-me {
-	padding: 7em 2.5em 8em 0;
+	padding: 0 2.5em 0 0;
 	background: url(../img/sand_about.jpg) no-repeat center center; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -325,7 +325,7 @@ footer {
 */
 
 .advertising_top {
-	padding: 7em 2.5em 13em 0;
+	padding: 0 2.5em 0 0;
 	background: url(../img/sand_pack.jpg) no-repeat center center; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -334,7 +334,7 @@ footer {
 }
 
 .branding_top {
-	padding: 7em 2.5em 13em 0;
+	padding: 0 2.5em 0 0;
 	background: url(../img/sand_brand.jpg) no-repeat center center; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -364,7 +364,7 @@ footer {
 		color: #e22728;
 }
 
-.portfolio_box {
+.transparent_box {
 	padding: 7em 2em 13em 5em;
 	background-color: rgba(255,255,255,0.5);
 }
