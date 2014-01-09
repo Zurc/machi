@@ -32,15 +32,15 @@ else if (strpos(testURL(), "publishing") != 0){
 			}
 		</style>';
 }
-else if (strpos(testURL(), "packaging") != 0){
+else if (strpos(testURL(), "advertising") != 0){
 	echo '
 		<style type="text/css">
-			#pac.hoverup {
+			#adv.hoverup {
 					opacity: 1;
 					position: relative;
 				}
 				 
-			#pac.hoverup:hover {
+			#adv.hoverup:hover {
 					top: 0;
 				}
 			}
@@ -56,19 +56,19 @@ else if (strpos(testURL(), "packaging") != 0){
 					<div id="pub" class="large-4 columns nmargin text-center hoverup trans">
 						<a href="publishing.php">
 							<img src="img/bird.png" alt="join" class="smargin ico">
-							<h3 class="slim">Publishing</h3>
+							<h5 class="slim">Publishing</h5>
 						</a>
 					</div>
 					<div id="bra" class="large-4 columns nmargin text-center hoverup trans">
 						<a href="branding.php">
 							<img src="img/star.png" alt="dream" class="smargin ico">
-							<h3 class="slim">Branding</h3>
+							<h5 class="slim">Branding</h5>
 						</a>
 					</div>
-					<div id="pac" class="large-4 columns nmargin text-center hoverup trans">
-						<a href="packaging.php">
+					<div id="adv" class="large-4 columns nmargin text-center hoverup trans">
+						<a href="advertising.php">
 							<img src="img/fish.png" alt="love" class="smargin ico">
-							<h3 class="slim">Packaging</h3>
+							<h5 class="slim">Advertising</h5>
 						</a>
 					</div>
 				</div>

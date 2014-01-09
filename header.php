@@ -30,8 +30,8 @@
 						<li class="trans"><a href="index.php">Home</a></li>
 						<li class="trans"><a href="#" data-dropdown="hover1" data-options="is_hover:true">Portfolio</a></li>
 							<ul id="hover1" class="f-dropdown" data-dropdown-content>
+								<li><a href="advertising.php">Advertising</a></li>
 								<li><a href="branding.php">Branding</a></li>
-								<li><a href="packaging.php">Packaging</a></li>
 								<li><a href="publishing.php">Publishing</a></li>
 							</ul>
 						<li class="trans"><a href="about.php">About</a></li>
