@@ -381,8 +381,9 @@ footer {
 	font-size: 2em;
 }
 
+}
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
 
 	#name {
 		text-align: center;
@@ -408,11 +409,16 @@ footer {
 		background-color: #e0e0e0;
 	}
 	
-	.welcome h2 {
-	font-size: 1.3em;
+	.welcome {
+	padding-right: 0;
 	}
 
-		.welcome.pad-left {
+	.welcome h2 {
+	font-size: 1.3em;
+	text-align: center;
+	}
+
+	.pad-left {
 		padding-left: 0;
 	}
 	
