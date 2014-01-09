@@ -408,6 +408,14 @@ footer {
 		background-color: #e0e0e0;
 	}
 	
+	.welcome h2 {
+	font-size: 1.3em;
+	}
+
+		.welcome.pad-left {
+		padding-left: 0;
+	}
+	
 	.about {
 		margin-top: 0;
 	}
