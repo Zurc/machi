@@ -1,4 +1,4 @@
- 
+
 <!DOCTYPE html>
 <!--[if IE 8]> 				 <html class="no-js lt-ie9" lang="en" > <![endif]-->
 <!--[if gt IE 8]><!--> 
@@ -27,14 +27,14 @@
 			<div class="large-8 columns">
 				<nav>
 					<ul class="inline-list">
-						<li class="trans"><a href="index.php">Home</a></li>
-						<li class="trans"><a href="#" data-dropdown="hover1" data-options="is_hover:true">Portfolio</a></li>
+						<li class="trans"><a href="index.php"><i class="foundicon-home"></i></a></li>
+						<li class="trans"><a href="#" data-dropdown="hover1" data-options="is_hover:true"><i class="foundicon-paper-clip"></i></a></li>
 							<ul id="hover1" class="f-dropdown" data-dropdown-content>
 								<li><a href="advertising.php">Advertising</a></li>
 								<li><a href="branding.php">Branding</a></li>
 								<li><a href="publishing.php">Publishing</a></li>
 							</ul>
-						<li class="trans"><a href="about.php">About</a></li>
+						<li class="trans"><a href="about.php"><i class="foundicon-mail"></i></a></li>
 					</ul>
 				</nav>
 			</div>
