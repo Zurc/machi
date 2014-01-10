@@ -126,6 +126,10 @@ h1, h2, h3, h4 {
     transition: all 0.4s linear;
 }
 
+.f-dropdown li a {
+	color: #E22728;
+}
+
 /*input, textarea {
 	line-height: 50px;
 	min-height: 50px !important;
@@ -163,7 +167,7 @@ nav * {
 }
 
 nav a {
-	color: #fffed4;
+	color: #fffed4; 
 }
 
 .inline-list {
@@ -223,7 +227,7 @@ footer {
 
 /*division entre foto y textura*/
 .contact {
-	color: #fff;
+	color: #FFFED4;
 	padding: 2em 0;
 }
 
@@ -433,6 +437,10 @@ text-align: center;
 	margin-top: 0;
 }
 
+.transparent_box {
+	padding: 0.9375em;
+}
+
 .bpadding-right {
 padding-right: 0;
 padding-left: 0;
@@ -446,6 +454,9 @@ padding-left: 0;
 	font-size: 0.9em;
 }
 
+ .f-dropdown:before {
+    left: 76px;
+}
 }
 
 
