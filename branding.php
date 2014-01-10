@@ -20,10 +20,10 @@ include("port_icons.php");
 ?>
 	<div class="fondo-blanco">
 		<div class="row">
-			<div class="large-6 columns">
+			<div class="large-6 columns box-padding">
 				<img src="img/Brand-1a.png" alt="">
 			</div>
-			<div class="large-6 columns">
+			<div class="large-6 columns box-padding">
 				<img src="img/Brand-1b.png" alt="">
 			</div>
 		</div>
@@ -31,15 +31,41 @@ include("port_icons.php");
 
 	<div class="portfolio_bottom">
 		<div class="row ">
-			<div class="large-12 columns recuadro-blanco">
-				<div class="row ">	
-					<div class="large-6 columns">
+		<!-- 	<div class="large-12 columns recuadro-blanco"> -->
+				<div class="row recuadro-blanco">	
+					<div class="large-6 columns box-padding">
 						<img src="img/Brand-2a.png" alt="">
 					</div>
-					<div class="large-6 columns">
+					<div class="large-6 columns box-padding">
 						<img src="img/Brand-2b.png" alt="">
 					</div>
-				</div>
+				<!-- </div> -->
+			</div>
+		</div>
+	</div>
+
+	<div class="fondo-blanco">
+		<div class="row">
+			<div class="large-6 columns box-padding">
+				<img src="img/Brand-1a.png" alt="">
+			</div>
+			<div class="large-6 columns box-padding">
+				<img src="img/Brand-1b.png" alt="">
+			</div>
+		</div>
+	</div>
+
+	<div class="portfolio_bottom">
+		<div class="row ">
+		<!-- 	<div class="large-12 columns recuadro-blanco"> -->
+				<div class="row recuadro-blanco">	
+					<div class="large-6 columns box-padding">
+						<img src="img/Brand-2a.png" alt="">
+					</div>
+					<div class="large-6 columns box-padding">
+						<img src="img/Brand-2b.png" alt="">
+					</div>
+				<!-- </div> -->
 			</div>
 		</div>
 	</div>

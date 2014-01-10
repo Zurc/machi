@@ -377,9 +377,13 @@ footer {
 	background-color: #fff;
 }
 
-.recuadro-blanco {
+.row.recuadro-blanco {
 	background-color: #fff;
-	margin: 3em;
+	margin: 5em 3em;
+}
+
+.box-padding {
+	padding: 2em;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 830px) {
