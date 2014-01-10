@@ -51,21 +51,21 @@ else if (strpos(testURL(), "advertising") != 0){
 
 	<article class="portfolio_bottom">
 		<div class="row">
-			<div class="large-8 columns bmargin-top right">
+			<div class="small-12 large-8 columns bmargin-top right">
 				<div class="row">
-					<div id="pub" class="large-4 columns nmargin text-center hoverup trans">
+					<div id="pub" class="small-4 large-4 columns nmargin text-center hoverup trans">
 						<a href="publishing.php">
 							<img src="img/bird.png" alt="join" class="smargin ico">
 							<h5 class="slim">Publishing</h5>
 						</a>
 					</div>
-					<div id="bra" class="large-4 columns nmargin text-center hoverup trans">
+					<div id="bra" class="small-4 large-4 columns nmargin text-center hoverup trans">
 						<a href="branding.php">
 							<img src="img/star.png" alt="dream" class="smargin ico">
 							<h5 class="slim">Branding</h5>
 						</a>
 					</div>
-					<div id="adv" class="large-4 columns nmargin text-center hoverup trans">
+					<div id="adv" class="small-4 large-4 columns nmargin text-center hoverup trans">
 						<a href="advertising.php">
 							<img src="img/fish.png" alt="love" class="smargin ico">
 							<h5 class="slim">Advertising</h5>

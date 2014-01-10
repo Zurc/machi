@@ -396,56 +396,56 @@ footer {
 
 @media only screen and (max-width: 767px) {
 
-	#name {
-		text-align: center;
-		border-bottom: 3px solid #e0e0e0;
-		padding-bottom: 20px;
-	}
-	.inline-list {
-		margin: 0;
-	}
-	nav {
-		float: left !important;
-/*		width: 100%;
-		margin: 20px 0;*/
-	}
-/*	nav li {
-		float: none;
-		clear: both;
-		margin-left: 0 !important;
-		width: 100%;
-		text-align: center;
-	}*/
+#name {
+	text-align: center;
+	border-bottom: 3px solid #e0e0e0;
+	padding-bottom: 20px;
+}
+.inline-list {
+	margin: 0;
+}
+nav {
+	float: left !important;
+}
 
 .inline-list > li {
 	margin-left: 0;
 }
 
-	nav li:hover {
-		background-color: #e0e0e0;
-	}
-	
-	.welcome {
-	padding-right: 0;
-	}
+nav li:hover {
+	background-color: #e0e0e0;
+}
 
-	.welcome h2 {
-	font-size: 1.3em;
-	text-align: center;
-	}
+.welcome {
+padding-right: 0;
+}
 
-	.pad-left {
-		padding-left: 0;
-	}
-	
-	.about {
-		margin-top: 0;
-	}
+.welcome h2 {
+font-size: 1.3em;
+text-align: center;
+}
 
-	.bpadding-right {
-	padding-right: 0;
+.pad-left {
 	padding-left: 0;
-	}
+}
+
+.about {
+	margin-top: 0;
+}
+
+.bpadding-right {
+padding-right: 0;
+padding-left: 0;
+}
+
+.ico {
+	max-height: 40px;
+}
+
+.portfolio_bottom h5 {
+	font-size: 0.9em;
+}
+
 }
 
 
