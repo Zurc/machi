@@ -21,9 +21,11 @@ include("port_icons.php");
 
 		<div class="fondo-blanco">
 			<div class="row">
-				<div class="large-12 columns box-padding">
+				<div class="large-3 columns"><span class="text-transp">"   "</span></div>
+				<div class="large-6 columns box-padding">
 					<img src="img/Adv-1a.png" alt="">
 				</div>
+				<div class="large-3 columns"><span class="text-transp">"   "</span></div>
 			</div>
 		</div>
 
@@ -53,10 +55,12 @@ include("port_icons.php");
 
 		<div class="portfolio_bottom">
 			<div class="row ">
-					<div class="row recuadro-blanco">	
-						<div class="large-12 columns box-padding">
+					<div class="row recuadro-blanco">
+						<div class="large-3 columns"><span class="text-transp">"   "</span></div>	
+						<div class="large-6 columns box-padding">
 							<img src="img/Adv-3c.png" alt="">
 						</div>
+						<div class="large-3 columns"><span class="text-transp">"   "</span></div>
 				</div>
 			</div>
 		</div>

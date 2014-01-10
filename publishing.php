@@ -45,9 +45,11 @@ include("port_icons.php");
 
 	<div class="fondo-blanco">
 		<div class="row">
-			<div class="large-12 columns box-padding">
+			<div class="large-3 columns"><span class="text-transp">"   "</span></div>
+			<div class="large-6 columns box-padding">
 				<img src="img/Pub-2c.png" alt="">
 			</div>
+			<div class="large-3 columns"><span class="text-transp">"   "</span></div>
 		</div>
 	</div>
 
