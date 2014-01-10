@@ -157,10 +157,6 @@ header {
 	background: #978777;
 }
 
-.inline-list {
-	float: right;
-}
-
 nav * {
 	line-height: 52px;
 	margin-right: 20px;
@@ -168,6 +164,10 @@ nav * {
 
 nav a {
 	color: #fffed4;
+}
+
+.inline-list {
+	float: right;
 }
 
 .name {
@@ -183,7 +183,7 @@ nav a {
 }
 
 .welcome {
-	padding: 7em 2.5em 23em 0;
+	padding: 7em 0 23em 0;
 	background: url(../img/sand_feet.jpg) no-repeat center center; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -242,7 +242,7 @@ footer {
 }*/
 
 .about-me {
-	padding: 0 2.5em 0 0;
+	padding: 0;
 	background: url(../img/sand_about.jpg) no-repeat center center; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -329,7 +329,7 @@ footer {
 */
 
 .advertising_top {
-	padding: 0 2.5em 0 0;
+	padding: 0;
 	background: url(../img/sand_pack.jpg) no-repeat center center; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -338,7 +338,7 @@ footer {
 }
 
 .branding_top {
-	padding: 0 2.5em 0 0;
+	padding: 0;
 	background: url(../img/sand_brand.jpg) no-repeat center center; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -347,7 +347,7 @@ footer {
 }
 
 .publishing_top {
-	padding: 0 2.5em 0 0;
+	padding: 0;
 	background: url(../img/sand_publ.jpg) no-repeat center center; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -395,16 +395,21 @@ footer {
 	}
 	nav {
 		float: left !important;
-		width: 100%;
-		margin: 20px 0;
+/*		width: 100%;
+		margin: 20px 0;*/
 	}
-	nav li {
+/*	nav li {
 		float: none;
 		clear: both;
 		margin-left: 0 !important;
 		width: 100%;
 		text-align: center;
-	}
+	}*/
+
+.inline-list > li {
+	margin-left: 0;
+}
+
 	nav li:hover {
 		background-color: #e0e0e0;
 	}
@@ -428,6 +433,7 @@ footer {
 
 	.bpadding-right {
 	padding-right: 0;
+	padding-left: 0;
 	}
 }
 
