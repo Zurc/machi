@@ -19,19 +19,13 @@ include ("header.php");
 include("port_icons.php");
 ?>
 
-</section>
-
-<?php 
-include ("footer.php");
-?>
-
-<div class="fondo-blanco">
+	<div class="fondo-blanco">
 		<div class="row">
 			<div class="large-6 columns box-padding">
-				<img src="img/Brand-1a.png" alt="">
+				<img src="img/Pub-1a.png" alt="">
 			</div>
 			<div class="large-6 columns box-padding">
-				<img src="img/Brand-1b.png" alt="">
+				<img src="img/Pub-1b.png" alt="">
 			</div>
 		</div>
 	</div>
@@ -40,10 +34,10 @@ include ("footer.php");
 		<div class="row ">
 				<div class="row recuadro-blanco">	
 					<div class="large-6 columns box-padding">
-						<img src="img/Brand-2a.png" alt="">
+						<img src="img/Pub-2a.png" alt="">
 					</div>
 					<div class="large-6 columns box-padding">
-						<img src="img/Brand-2b.png" alt="">
+						<img src="img/Pub-2b.png" alt="">
 					</div>
 			</div>
 		</div>
@@ -51,24 +45,26 @@ include ("footer.php");
 
 	<div class="fondo-blanco">
 		<div class="row">
-			<div class="large-6 columns box-padding">
-				<img src="img/Brand-1a.png" alt="">
-			</div>
-			<div class="large-6 columns box-padding">
-				<img src="img/Brand-1b.png" alt="">
+			<div class="large-12 columns box-padding">
+				<img src="img/Pub-2c.png" alt="">
 			</div>
 		</div>
 	</div>
 
-	<div class="portfolio_bottom">
+	<!-- <div class="portfolio_bottom">
 		<div class="row ">
 				<div class="row recuadro-blanco">	
 					<div class="large-6 columns box-padding">
-						<img src="img/Brand-2a.png" alt="">
+						<img src="img/Pub-2a.png" alt="">
 					</div>
 					<div class="large-6 columns box-padding">
-						<img src="img/Brand-2b.png" alt="">
+						<img src="img/Pub-2b.png" alt="">
 					</div>
 			</div>
 		</div>
-	</div>
+	</div> -->
+</section>
+
+<?php 
+include ("footer.php");
+?>

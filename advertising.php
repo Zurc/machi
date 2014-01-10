@@ -19,50 +19,61 @@ include ("header.php");
 include("port_icons.php");
 ?>
 
+		<div class="fondo-blanco">
+			<div class="row">
+				<div class="large-12 columns box-padding">
+					<img src="img/Adv-1a.png" alt="">
+				</div>
+			</div>
+		</div>
+
+		<div class="portfolio_bottom">
+			<div class="row ">
+					<div class="row recuadro-blanco">	
+						<div class="large-6 columns box-padding">
+							<img src="img/Adv-2a.png" alt="">
+						</div>
+						<div class="large-6 columns box-padding">
+							<img src="img/Adv-2b.png" alt="">
+						</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="fondo-blanco">
+			<div class="row">
+				<div class="large-6 columns box-padding">
+					<img src="img/Adv-3a.png" alt="">
+				</div>
+				<div class="large-6 columns box-padding">
+					<img src="img/Adv-3b.png" alt="">
+				</div>
+			</div>
+		</div>
+
+		<div class="portfolio_bottom">
+			<div class="row ">
+					<div class="row recuadro-blanco">	
+						<div class="large-12 columns box-padding">
+							<img src="img/Adv-3c.png" alt="">
+						</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="fondo-blanco">
+			<div class="row">
+				<div class="large-6 columns box-padding">
+					<img src="img/Adv-4a.png" alt="">
+				</div>
+				<div class="large-6 columns box-padding">
+					<img src="img/Adv-4b.png" alt="">
+				</div>
+			</div>
+		</div>
 </section>
 
 <?php 
 include ("footer.php");
 ?>
 
-<div class="fondo-blanco">
-		<div class="row">
-			<div class="large-12 columns box-padding">
-				<img src="img/Brand-1a.png" alt="">
-			</div>
-		</div>
-	</div>
-
-	<div class="portfolio_bottom">
-		<div class="row ">
-				<div class="row recuadro-blanco">	
-					<div class="large-6 columns box-padding">
-						<img src="img/Brand-2a.png" alt="">
-					</div>
-					<div class="large-6 columns box-padding">
-						<img src="img/Brand-2b.png" alt="">
-					</div>
-			</div>
-		</div>
-	</div>
-
-	<div class="fondo-blanco">
-		<div class="row">
-			<div class="large-6 columns box-padding">
-				<img src="img/Brand-1a.png" alt="">
-			</div>
-			<div class="large-6 columns box-padding">
-				<img src="img/Brand-1b.png" alt="">
-			</div>
-		</div>
-	</div>
-
-	<div class="portfolio_bottom">
-		<div class="row ">
-				<div class="row recuadro-blanco">	
-					<div class="large-12 columns box-padding">
-						<img src="img/Brand-2a.png" alt="">
-					</div>
-			</div>
-		</div>
-	</div>

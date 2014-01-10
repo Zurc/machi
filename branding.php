@@ -45,15 +45,15 @@ include("port_icons.php");
 	<div class="fondo-blanco">
 		<div class="row">
 			<div class="large-6 columns box-padding">
-				<img src="img/Brand-1a.png" alt="">
+				<img src="img/Brand-3a.png" alt="">
 			</div>
 			<div class="large-6 columns box-padding">
-				<img src="img/Brand-1b.png" alt="">
+				<img src="img/Brand-3b.png" alt="">
 			</div>
 		</div>
 	</div>
 
-	<div class="portfolio_bottom">
+	<!-- <div class="portfolio_bottom">
 		<div class="row ">
 				<div class="row recuadro-blanco">	
 					<div class="large-6 columns box-padding">
@@ -64,7 +64,7 @@ include("port_icons.php");
 					</div>
 			</div>
 		</div>
-	</div>
+	</div> -->
 </section>
 
 <?php
