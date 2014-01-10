@@ -373,7 +373,14 @@ footer {
 	background-color: rgba(255,255,255,0.5);
 }
 
+.fondo-blanco {
+	background-color: #fff;
+}
 
+.recuadro-blanco {
+	background-color: #fff;
+	margin: 3em;
+}
 
 @media only screen and (min-width: 768px) and (max-width: 830px) {
 
