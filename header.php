@@ -34,7 +34,8 @@
 								<li><a href="branding.php">Branding</a></li>
 								<li><a href="publishing.php">Publishing</a></li>
 							</ul>
-						<li class="trans"><a href="about.php"><i class="foundicon-mail"></i></a></li>
+						<li class="trans"><a href="about.php"><i class="foundicon-idea"></i></a></li>
+						<li class="trans"><a href="contact-me.php"><i class="foundicon-mail"></i></a></li>
 					</ul>
 				</nav>
 			</div>

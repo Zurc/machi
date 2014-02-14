@@ -7,10 +7,9 @@ include ("header.php");
 <section>
 	<div class="portfolio_top publishing_top">
 		<article class="row">
-			<div class="small-12 large-8 columns right transparent_box bmargin-top">
-				<h2>Publishing</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, at, harum, nulla ut iste repellendus praesentium distinctio similique nobis sapiente soluta quis nihil assumenda corporis omnis voluptatum asperiores neque minima.
-				<br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id, sequi, molestias, autem, quisquam repellendus quam unde qui nihil nobis esse nesciunt aspernatur sit reiciendis exercitationem.</p>
+			<div class="small-12 large-6 columns right transparent_box bmargin-top">
+				<p class="banner">The world's <span class="bold">greatest achievers</span> have been those who have always stayed <span class="bold">focussed on their goals</span> and have been <span class="bold">consistent</span> in their <span class="bold">efforts</span>
+				</p>
 			</div>
 		</article>
 	</div>

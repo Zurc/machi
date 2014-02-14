@@ -7,10 +7,8 @@ include ("header.php");
 <section>
 	<div class="portfolio_top branding_top">
 		<article class="row">
-			<div class="small-12 large-8 columns right transparent_box bmargin-top">
-				<h2>Branding</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, at, harum, nulla ut iste repellendus praesentium distinctio similique nobis sapiente soluta quis nihil assumenda corporis omnis voluptatum asperiores neque minima.
-				<br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id, sequi, molestias, autem, quisquam repellendus quam unde qui nihil nobis esse nesciunt aspernatur sit reiciendis exercitationem.</p>
+			<div class="small-12 large-6 columns right transparent_box bmargin-top">
+				<p class="banner">No matter how big or small your business is you should recognise the <span class="bold">power and financial value</span> of a <span class="bold">good brand design</span></p>
 			</div>
 		</article>
 	</div>

@@ -9,11 +9,8 @@ include ('header.php');
 <section>
 	<div class="about-me">
 		<article class="row">
-			<div class="large-8 columns right transparent_box bmargin-top">
-				<h2>I'm María</h2>
-				<p>I have a very atypical path both personally and professionally. I was born in Cameroun and raised in 6 different countries and 3 continents. I speak English, French and Spanish fluently.
-				<br>I have been good at math and science since my childhood, studying and obtaining a diploma in Electronics Engineering. After working in that field for a couple of years, I decided to learn design on my own and have been working as a designer and developer since July 2007.</p>
-				<br><a href="#" target="_blank" class="resume">get my resume</a>
+			<div class="large-6 columns right transparent_box bmargin-top">
+				<p class="banner">I <span class="bold">question,</span> I <span class="bold">listen</span> and I <span class="bold">challenge, with a passion</span> that always generates truly <span class="bold">creative work</span> for my clients</p>
 			</div>
 		</article>
 	</div>
@@ -21,31 +18,19 @@ include ('header.php');
 	<article class="contact-me">
 		<div class="row">
 			<div class="large-6 columns bmargin-top bpadding-right">
-				<h4>Contact me</h4>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit mollitia expedita inventore sint dolorem accusamus cum optio! Dignissimos, enim, earum iste recusandae sequi qui quibusdam repudiandae iusto corporis maiores rem.</p>
-				<form action="">
-					<label for="name">Name:</label>
-					<input type="text" name="contactname" id="contactname" value="" class="required" />
-				
-					<label for="email">Email:</label>
-					<input type="text" name="email" id="email" value="" class="required email" />
-				
-					<label for="subject">Subject:</label>
-					<input type="text" name="subject" id="subject" value="" class="required" />
-				
-					<label for="message">Message:</label>
-					<textarea rows="8" name="message" id="message" class="required"></textarea>
-						
-				    <input type="submit" value="Send Message" name="submit" id="send" />
-				    <a href="mailto:mail@machi.com" class="mailto">mail@machi</a>
-				</form>
+				<h4>About myself</h4>
+				<p class="about">After obtaining a BA degree in graphic design at Buenos Aires University in Argentina, I have worked for a dozen years perfecting the right mix of skills and processes to deliver great work for my clients.</p>
+				<p class="about">I have worked globally for retail; publishing and media companies, understanding their culture and helping them develop design concepts from branding, packaging to publishing and advertisement.</p>
 			</div>
-			<div class="large-6 columns map bmargin-top">
-				<h4>Places where I worked</h4>
+			<div class="large-6 columns bmargin-top">
+				<p class="extra">I believe that exceptional design is usable, simple, and beautiful. Creating great design requires a balance of raw talent, usability instincts, user empathy, keen business acumen, and a deep understanding of technical feasibility.</p> 
+				<p class="extra">I combine great ideas and business sense with the very best of graphic design.</p>
+
+				<!-- <h4>Places where I worked</h4>
 				<img src="img/map.png" alt="">
 				<div class="a trans1"></div>
 				<div class="b trans1"></div>
-				<div class="g trans1"></div>
+				<div class="g trans1"></div> -->
 			</div>
 		</div>
 	</article>
