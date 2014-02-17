@@ -248,7 +248,7 @@ footer {
 
 /*
 ********************
-* About
+* About and Contact pages
 ********************
 */
 
@@ -267,6 +267,18 @@ footer {
 	background-size: cover;
 }
 .about-me h2, p {
+	color: #e22728;
+}
+
+.full-contact {
+	padding: 0;
+	background: url(../img/full_contact.jpg) no-repeat center center; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.full-contact h2, p {
 	color: #e22728;
 }
 
@@ -358,7 +370,7 @@ footer {
 
 .advertising_top {
 	padding: 0;
-	background: url(../img/sand_pack.jpg) no-repeat center center; 
+	background: url(../img/sand_adv.jpg) no-repeat center center; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -376,7 +388,7 @@ footer {
 
 .publishing_top {
 	padding: 0;
-	background: url(../img/publishing2.jpg) no-repeat center center; 
+	background: url(../img/publishing.jpg) no-repeat center center; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;

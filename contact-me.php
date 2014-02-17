@@ -7,7 +7,7 @@ include ('header.php');
  ?>
 
 <section>
-	<div class="about-me">
+	<div class="full-contact">
 		<article class="row">
 			<div class="large-6 columns right transparent_box bmargin-top">
 				<p class="banner">The big <span class="bold">art of design</span> is to <span class="bold">make complicated things simple</span></p>
