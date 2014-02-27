@@ -21,7 +21,7 @@ include ('header.php');
 		<div class="row">
 			<div class="large-6 columns bmargin-top bpadding-right">
 				<h4>Get in touch</h4>
-				<form method="post" action="javascript:function();" name="emails" id="form">
+				<form method="post" action="email.php" name="form" id="form">
 					<label for="name">Name:</label>
 					<input type="text" name="contactname" id="contactname" value="" class="required" />
 				
@@ -59,12 +59,6 @@ include ('header.php');
 
            $("#form").submit(function() {
                    var username = $("#contactname").val();
-
-                   $.ajax({
-                       type: "POST",
-                       url:"email.php",
-                       data: {username: username}
-                   });
 
                    if (username.length !== 0) {
                            $("#form").fadeOut(slow);
