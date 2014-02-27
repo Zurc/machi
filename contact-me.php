@@ -21,7 +21,7 @@ include ('header.php');
 		<div class="row">
 			<div class="large-6 columns bmargin-top bpadding-right">
 				<h4>Get in touch</h4>
-				<form action="">
+				<form id="form" action="POST">
 					<label for="name">Name:</label>
 					<input type="text" name="contactname" id="contactname" value="" class="required" />
 				
@@ -36,6 +36,9 @@ include ('header.php');
 						
 				    <input type="submit" value="Send" name="submit" id="send" />
 				</form>
+				<div class="thanks">
+					<p></p>
+				</div>
 			</div>
 			<div class="large-6 columns bmargin-top">
 				<p class="getintouch">I understand that every project requires a different and specific mix of media, which is why I am constantly innovating in both print and digital.</p> 
@@ -50,6 +53,30 @@ include ('header.php');
 		</div>
 	</article>
 </section>
+
+Thank you for your message. I will contact you shortly
+
+
+<script>
+	$(document).ready(function (){
+
+           $("#datosuser").submit(function() {
+                   var username = $("#contactname").val();
+
+                   $.ajax({
+                       type: "POST",
+                       url:"email.php",
+                       data: {username: username}
+                   });
+
+                   if (username.length !== 0) {
+                           $("#form").fadeOut(slow);
+                           $(".thanks p").html("Thank you " + username + " for sending us your message!")
+                           				 .fadeIn(slow);         
+                   }
+           });
+   });
+	</script>
 
 <?php 
 include ("footer.php");
