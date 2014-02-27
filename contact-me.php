@@ -21,7 +21,6 @@ include ('header.php');
 		<div class="row">
 			<div class="large-6 columns bmargin-top bpadding-right">
 				<h4>Get in touch</h4>
-				<p></p>
 				<form action="">
 					<label for="name">Name:</label>
 					<input type="text" name="contactname" id="contactname" value="" class="required" />
@@ -35,8 +34,7 @@ include ('header.php');
 					<label for="message">Message:</label>
 					<textarea rows="8" name="message" id="message" class="required"></textarea>
 						
-				    <input type="submit" value="Send Message" name="submit" id="send" />
-				    <a href="mailto:mail@machi.com" class="mailto">mail@machi</a>
+				    <input type="submit" value="Send" name="submit" id="send" />
 				</form>
 			</div>
 			<div class="large-6 columns bmargin-top">

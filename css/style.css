@@ -301,23 +301,25 @@ footer {
 	width: 100%;
 }
 
-.contact-me h4, .contact-me p, label {
+.contact-me p, label {
 	color: #fffed4;
 }
 
+.contact-me h4 {
+	color: #fffed4;
+	padding-bottom: 0.8em;
+}
+
 .about{
-	line-height:2em;
     margin-top: 0;
 }
 
 .extra {
-	line-height:2em;
-    margin-top: 2em;
+    margin-top: 3.1em;
     padding-top: 1.45em;
 }
 
 .getintouch {
-	line-height:2em;
     margin-top: 3.7em;
     padding-top: 1.45em;
 }
@@ -376,6 +378,19 @@ footer {
 	width: 200px;
 	height: 200px;
 	background: url(../img/rainbow.png) no-repeat center center;
+}
+
+input[type="button"], input[type="submit"], input[type="reset"], input[type="file"]::-webkit-file-upload-button, button {
+font-family: 'Comfortaa', serif;
+font-size: 0.875em;
+font-weight: 700;
+letter-spacing: 0.1em;
+text-align: center;
+cursor: default;
+color: #e22728;
+padding: 2px 10px;
+background-color: #fffed4;
+border: none;
 }
 
 /*
@@ -442,12 +457,23 @@ footer {
 	padding: 2em;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 930px) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
 
+.welcome {
+	padding: 3em 0 23em 2.1em ;
+}
 .welcome h2 {
 	font-size: 1.5em;
 }
 
+.banner{
+	font-size: 1.3em;
+}
+
+.transparent_box {
+	padding: 7em 2em 5em 5em;
+	background-color: rgba(255,255,255,0.5);
+}
 }
 
 @media only screen and (max-width: 767px) {
