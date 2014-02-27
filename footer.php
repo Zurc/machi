@@ -1,7 +1,7 @@
 <footer>
  	<div class="row">
  		<div class="large-12 columns text-center contact">
- 			<em>© 2013 Cruz Jurado. All rights reserved. <a href="http://web.cruzjurado.com" target="_blank">Web.CruzJurado.com</a></em>
+ 			<em>© 2014 Cruz Jurado. All rights reserved. <a href="http://web.cruzjurado.com" target="_blank">Web.CruzJurado.com</a></em>
  		</div>
  	</div>
  </footer>

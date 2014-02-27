@@ -51,18 +51,98 @@ include("port_icons.php");
 		</div>
 	</div>
 
-	<!-- <div class="portfolio_bottom">
+	<div class="portfolio_bottom">
 		<div class="row ">
-				<div class="row recuadro-blanco">	
+				<div class="row recuadro-blanco">
+					<div class="large-3 columns"><span class="text-transp">"   "</span></div>	
 					<div class="large-6 columns box-padding">
-						<img src="img/Brand-2a.png" alt="">
+						<img src="img/Brand-4a.png" alt="">
 					</div>
-					<div class="large-6 columns box-padding">
-						<img src="img/Brand-2b.png" alt="">
-					</div>
+					<div class="large-3 columns"><span class="text-transp">"   "</span></div>
 			</div>
 		</div>
-	</div> -->
+	</div>
+
+	<div class="fondo-blanco">
+		<div class="row">
+			<div class="large-6 columns box-padding">
+				<img src="img/Brand-5a.png" alt="">
+			</div>
+			<div class="large-6 columns box-padding">
+				<img src="img/Brand-5b.png" alt="">
+			</div>
+		</div>
+	</div>
+
+	<div class="portfolio_bottom">
+		<div class="row ">
+				<div class="row recuadro-blanco">
+					<div class="large-3 columns"><span class="text-transp">"   "</span></div>	
+					<div class="large-6 columns box-padding">
+						<img src="img/Brand-6a.png" alt="">
+					</div>
+					<div class="large-3 columns"><span class="text-transp">"   "</span></div>
+			</div>
+		</div>
+	</div>
+
+	<div class="fondo-blanco">
+		<div class="row">
+			<div class="large-6 columns box-padding">
+				<img src="img/Brand-7a.png" alt="">
+			</div>
+			<div class="large-6 columns box-padding">
+				<img src="img/Brand-7b.png" alt="">
+			</div>
+		</div>
+	</div>
+
+	<div class="portfolio_bottom">
+		<div class="row ">
+				<div class="row recuadro-blanco">
+					<div class="large-3 columns"><span class="text-transp">"   "</span></div>	
+					<div class="large-6 columns box-padding">
+						<img src="img/Brand-8a.png" alt="">
+					</div>
+					<div class="large-3 columns"><span class="text-transp">"   "</span></div>
+			</div>
+		</div>
+	</div>
+
+	<div class="fondo-blanco">
+		<div class="row">
+			<div class="large-6 columns box-padding">
+				<img src="img/Brand-9a.png" alt="">
+			</div>
+			<div class="large-6 columns box-padding">
+				<img src="img/Brand-9b.png" alt="">
+			</div>
+		</div>
+	</div>
+
+	<div class="portfolio_bottom">
+		<div class="row ">
+				<div class="row recuadro-blanco">
+					<div class="large-3 columns"><span class="text-transp">"   "</span></div>	
+					<div class="large-6 columns box-padding">
+						<img src="img/Brand-10a.png" alt="">
+					</div>
+					<div class="large-3 columns"><span class="text-transp">"   "</span></div>
+			</div>
+		</div>
+	</div>
+
+	<div class="fondo-blanco">
+		<div class="row">
+			<div class="large-6 columns box-padding">
+				<img src="img/Brand-11a.png" alt="">
+			</div>
+			<div class="large-6 columns box-padding">
+				<img src="img/Brand-11b.png" alt="">
+			</div>
+		</div>
+	</div>
+
 </section>
 
 <?php

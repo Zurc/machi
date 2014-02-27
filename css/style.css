@@ -29,6 +29,11 @@ body {
 
 h1, h2, h3, h4 {
 	font-family: 'Comfortaa', cursive;
+	letter-spacing: 0.1em; 
+}
+
+p {
+	letter-spacing: 0.1em; 
 }
 
 /*.no-wrap {
@@ -40,7 +45,11 @@ h1, h2, h3, h4 {
 }
 
 .bpadding-right {
-	padding-right: 6em;
+	padding-right: 1em;
+}
+
+.bpadding-left {
+	padding-left: 1em;
 }
 
 .bmargin {
@@ -181,7 +190,7 @@ nav a {
 }
 
 .name {
-	margin-top: 40px;
+	margin-top: 30px;
 	font-weight: lighter;
 	color: #fffed4;
 	margin-bottom: 0;
@@ -303,7 +312,7 @@ footer {
 .extra {
 	line-height:2em;
     margin-top: 3em;
-    padding-top: 1.5em;
+    padding-top: 1.3em;
 }
 
 .map img {

@@ -11,8 +11,9 @@ include ('header.php');
 		<article class="row">
 			<div class="large-6 columns right transparent_box bmargin-top">
 				<p class="banner">The big <span class="bold">art of design</span> is to <span class="bold">make complicated things simple</span></p>
-				<br><a href="#" target="_blank" class="resume">get my resume</a>
-			</div>
+				<br>
+<!-- 				<a href="#" target="_blank" class="resume">get my resume</a>
+ -->			</div>
 		</article>
 	</div>
 	
