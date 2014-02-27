@@ -40,8 +40,8 @@ include ('header.php');
 				</form>
 			</div>
 			<div class="large-6 columns bmargin-top">
-				<p class="extra">I understand that every project requires a different and specific mix of media, which is why I am constantly innovating in both print and digital.</p> 
-				<p class="extra">At heart I am a strategist and innovator, as much as graphic designer and underpinning everything I do is a belief that, for design to be effective, it must be perfectly aligned with your business objectives.</p>
+				<p class="getintouch">I understand that every project requires a different and specific mix of media, which is why I am constantly innovating in both print and digital.</p> 
+				<p>At heart I am a strategist and innovator, as much as graphic designer and underpinning everything I do is a belief that, for design to be effective, it must be perfectly aligned with your business objectives.</p>
 
 				<!-- <h4>Places where I worked</h4>
 				<img src="img/map.png" alt="">
