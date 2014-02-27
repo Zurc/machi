@@ -221,6 +221,7 @@ nav a {
 .welcome h2 {
 		color: #e22728;
 		text-shadow: 2px 2px 3px rgba(150, 150, 150, 1);
+		font-weight: 400;
 }
 
 .portfolio_bottom {
@@ -441,10 +442,10 @@ footer {
 	padding: 2em;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 830px) {
+@media only screen and (min-width: 768px) and (max-width: 930px) {
 
 .welcome h2 {
-	font-size: 2em;
+	font-size: 1.5em;
 }
 
 }
