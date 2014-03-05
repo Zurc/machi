@@ -21,7 +21,7 @@ include ('header.php');
 		<div class="row">
 			<div class="large-6 columns bmargin-top bpadding-right">
 				<h4>Get in touch</h4>
-				<form method="post" action="email.php" name="form" id="form">
+				<form method="post" action="javascript:function();" name="form" id="form">
 					<label for="name">Name:</label>
 					<input type="text" name="contactname" id="contactname" value="" class="required" />
 				
@@ -53,18 +53,29 @@ include ('header.php');
 		</div>
 	</article>
 </section>
-
+<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 <script>
 	$(document).ready(function (){
 
            $("#form").submit(function() {
-                   var username = $("#contactname").val();
+           			$("#form").fadeOut(1000);
 
-                   if (username.length !== 0) {
-                           $("#form").fadeOut(slow);
-                           $(".thanks p").html("Thank you " + username + " for sending us your message!")
-                           				 .fadeIn(slow);         
-                   }
+                   var contactname = $("#contactname").val();
+                   var email = $("#email").val();
+                   var subject = $("#subject").val();
+                   var message = $("#message").val();
+
+                   $.ajax({
+                       type: "POST",
+                       url:"email.php",
+                       data: {contactname: contactname, email: email, subject: subject, message: message}
+                   });
+
+                   setTimeout(function() {
+	                   	$(".thanks p").delay(2000).html("Thanks " + contactname + " for your message. I will contact you shortly.");
+                   }, 3000);
+                   				          
+           
            });
    });
 	</script>

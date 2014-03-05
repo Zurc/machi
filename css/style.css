@@ -234,6 +234,7 @@ nav a {
 
 .banner{
 	font-size: 1.8em;
+	font-family: 'Comfortaa', cursive;
 }
 
 .ico {
@@ -393,6 +394,10 @@ background-color: #fffed4;
 border: none;
 }
 
+.thanks {
+	padding-top: 0.55em;
+}
+
 /*
 ********************
 * Portfolio
@@ -473,6 +478,10 @@ border: none;
 .transparent_box {
 	padding: 7em 2em 5em 5em;
 	background-color: rgba(255,255,255,0.5);
+}
+
+.thanks {
+	padding-top: 1.5em;
 }
 }
 
